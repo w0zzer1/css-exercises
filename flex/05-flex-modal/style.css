@@ -15,7 +15,7 @@ body {
   justify-content: center;
 }
 
-.modal {
+.modal { 
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -66,4 +66,37 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* Mysolution */
+
+.icon {
+  /* this keeps the icon from getting smashed by the text */
+  flex-shrink: 0;
+  margin: 16px;
+}
+
+.header{
+  font-weight: bold;
+  
+}
+
+.modal{
+  display: flex;
+  justify-content: space-between;
+}
+
+.whatever2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px;
+}
+
+.text{
+  margin: 12px;
+}
+
+.alsogombok{
+  margin: 12px;
 }

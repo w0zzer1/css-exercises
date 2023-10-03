@@ -24,4 +24,48 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+} 
+
+
+/* Innentől én írtam */
+body {
+  display: flex;
+  flex-direction: column;
 }
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header,
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer{
+  background-color: #eee;
+}
+
+.left-links,
+.right-links{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+
+
